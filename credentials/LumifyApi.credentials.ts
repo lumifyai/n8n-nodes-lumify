@@ -43,12 +43,9 @@ export class LumifyApi implements ICredentialType {
 
   test: ICredentialTestRequest = {
     request: {
-      baseURL: 'https://lumify.ai/api/v1',
-      url: '/skills/last30days',
+      url: 'https://lumify.ai/api/v1/skills/last30days',
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-      },
+      json: true,
       body: {
         topic: 'test',
         days: 1,
