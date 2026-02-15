@@ -11,7 +11,7 @@ export class Lumify implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'Lumify',
     name: 'lumify',
-    icon: 'file:lumify.svg',
+    icon: 'file:lumify.png',
     group: ['transform'],
     version: 1,
     subtitle: '={{$parameter["operation"]}}',
