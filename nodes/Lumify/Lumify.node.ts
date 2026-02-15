@@ -246,7 +246,7 @@ export class Lumify implements INodeType {
             'lumifyApi',
             {
               method: 'POST',
-              url: 'https://lumify.ai/api/v1/search.php',
+              url: 'https://www.lumify.ai/api/v1/search.php',
               body,
               json: true,
             },
@@ -279,7 +279,7 @@ export class Lumify implements INodeType {
             'lumifyApi',
             {
               method: 'POST',
-              url: 'https://lumify.ai/api/v1/skills/last30days',
+              url: 'https://www.lumify.ai/api/v1/skills/last30days',
               body,
               json: true,
             },
